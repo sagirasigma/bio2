@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: #FF5275;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    color: #c21650;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    margin: 20px;
+}
+
+.button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #ca2a4d;
+    border: none;
+    color: #ffa2b8;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition: background-color 1.3s;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #222410;
+}
+
+.hero {
+    background-color: #FCEEE5;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 72px;
+    color: #FF5275;
+    margin-bottom: 40px;
+}
+
+.hero .btn {
+    background-color: #FF5275;
+    color: white;
+    font-size: 24px;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.hero .btn:hover {
+    background-color: #FF3564;
+}
+
+.about-me {
+    background-color: white;
+    padding: 100px 80px;
+    text-align: center;
+}
+
+.about-me p {
+    font-size: 24px;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+
+.Projects{
+    background-color: white;
+    padding: 100px 80px;
+    text-align: center;
+}
+
+
+
+.Projects p {
+    font-size: 24px;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+
+.my-blog{
+    background-color: white;
+    padding: 100px 80px;
+    text-align: center;
+}
+
+.my-blog p {
+    font-size: 24px;
+    color: #555;
+    margin-bottom: 40px;
+}
+.my-skills{
+    background-color: white;
+    padding: 100px 80px;
+    text-align: center;
+}
+
+.my-skills p {
+    font-size: 24px;
+    color: #555;
+    margin-bottom: 40px;
+}
+footer {
+    background-color: #FF5275;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
